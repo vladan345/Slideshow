@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    -webkit-overflow: hidden;
+    overflow: hidden;
 }
 .main {
     width: 200%;
@@ -12,6 +12,7 @@ body {
     position: absolute;
     -webkit-top: 0;
     -webkit-left: 0;
+     overflow: hidden;
 }
 @keyframes prvi {
     from{top:-0; left:0;}
